@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã Phiếu"
+        android:textSize="20sp"
+        android:id="@+id/tv_PhieuThem"></TextView>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/spiner_ThanhVienPM"></Spinner>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/spine_SachPM"></Spinner>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày"
+        android:textSize="20sp"
+        android:id="@+id/tv_NgayThem"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiền thuê"
+        android:textSize="20sp"
+        android:id="@+id/tv_TienThueThemPM"></TextView>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chả sách"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/chk_TraSach"></CheckBox>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSavePM"
+            android:text="Lưu"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/baseline_save_as_24"/>
+
+        <Button
+            android:id="@+id/btnCacelPM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/baseline_cancel_24"
+            android:text="Hủy" />
+
+
+    </LinearLayout>
+</LinearLayout>
